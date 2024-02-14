@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-item{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkDzgujRK2Mpu0Rdats62K_ltxPufbWaHDomdBUq5O88WkPYDP-QKfO4utZniJXP8s-cg&usqp=CAU);
+    
+}
+.wrapper-box{
+    border: 1px solid ;
+    width: 60%;
+    height: 70vh;
+    background: #B99674F0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper-text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper-text p{
+    font-size: 20px;
+}
+.wrapper-text h2{
+    font-size: 40px;
+}
+.wrapper-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-name form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrapper-name form input{
+    width: 70%;
+    padding: 10px;
+    margin-left: 15%;
+} 
+.wrapper-name form textarea {
+    width: 70%;
+    height: 10vh;
+    padding: 10px;
+    margin-left: 15%;
+}
+.wrapper-name button{
+    width: 70%;   
+    margin-left: 15%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
